@@ -1,0 +1,273 @@
+.container {
+  width: 100;
+  margin: auto;
+}
+
+.top-box{
+
+  margin: 0;
+  padding: 0;
+}
+
+.default.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-img img {
+  width: 100%; /* Full width for main image */
+  max-height: 400px; /* Limit the height */
+}
+
+.thumb-list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.thumb-list div {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.thumb-list img {
+  width: 60px; /* Thumbnail size */
+  height: auto;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.thumb-list img:hover {
+  opacity: 1; /* Highlight on hover */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.add-to-cart-container {
+  margin-top: 20px;
+  width:auto;
+  height: 80px;
+  gap: 100px;
+}
+.btn-sm{
+width:fit-content;
+
+}
+
+
+
+.gallery-content {
+  display: flex; /* Align the main image and content side by side */
+  gap: 20px; /* Space between the image and the text */
+  align-items: center; /* Vertically center the items */
+}
+
+.main-img img {
+  max-width: 445px; /* Adjust as needed */
+  border-radius: 20px; /* Optional: round corners */
+}
+
+.content {
+  flex: 1; /* Allow the content to take available space */
+}
+
+.content h3 {
+  font-size: 16px;
+  color: var(--orange);
+}
+
+.content h2 {
+  font-size: 37px;
+  margin: 20px 0 40px 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header, footer {
+  width: 100%;
+}
+
+.main {
+  display: flex; /* Align the gallery and thumbnails side by side */
+  gap: 20px; /* Space between main image and content */
+}
+
+.gallery-content {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.main-img img {
+  width: 445px; /* Set desired width */
+  max-height: 400px; /* Limit the height */
+  border-radius: 20px; /* Optional: round corners */
+}
+
+.thumb-list-container {
+  width: 25%; /* Full width for scrolling */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.thumb-list-container img{
+  width: 50%;
+}
+.thumb-list-container::-webkit-scrollbar{
+  display: none;
+}
+.thumb-list-container-wrap{
+  display: flex;
+  align-items:center;
+  overflow: hidden;
+  width: 100%;
+  margin:-40px
+  
+  
+}
+.thumb-list {
+  display: flex; /* Display items in a row */
+  gap: 10px; /* Space between thumbnails */
+}
+
+.thumbnail {
+  min-width: 100px; /* Minimum width for thumbnails */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.thumbnail img {
+  width: 100%; /* Thumbnail image width */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 10px; 
+  /* Optional: round corners */
+}
+
+.content {
+  flex: 1; /* Allow the content to take available space */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+}
+
+.add-to-cart-container {
+  margin-top: 20px;
+}
+.price{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.current-price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.discount {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  
+}
+.quantity-input{
+  
+  max-width: 50px;
+
+}
+.prev-price{
+  
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+
+
+.scroll-btn {
+  width: 35px;;
+height: auto;  
+cursor: pointer;
+  margin: 0 2px; /* Space around scroll buttons */
+}
+.gallery-content {
+  display: flex; /* Align the main image and content side by side */
+  gap: 20px; /* Space between the image and the text */
+  align-items: center; /* Vertically center the items */
+}
+
+.main-img img {
+  max-width: 445px; /* Adjust as needed */
+  border-radius: 20px; /* Optional: round corners */
+}
+
+.content {
+  flex: 1; /* Allow the content to take available space */
+}
+
+.content h3 {
+  font-size: 16px;
+  color: var(--orange);
+}
+
+.content h2 {
+  font-size: 37px;
+  margin: 20px 0 40px 0;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: left;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+#backBtn,#nextBtn{
+  width: 35px;
+  cursor: pointer;
+  margin: 30px;
+ 
+}
+
+.container1 {
+  display: flex;                  /* Use flexbox for layout */
+  justify-content: space-between; /* Space the boxes evenly */
+  align-items: stretch;          /* Ensure all boxes stretch to the same height */
+  margin-top: 100px;
+}
+
+.box {
+  width: 23%;                    /* Set a width for each box */
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-align: left;              /* Align text to the left */
+  display: flex;                 /* Use flexbox for internal layout */
+  align-items: center;           /* Center align items vertically */
+  height: 100px;            /* Set a minimum height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  position: relative;
+  margin: 15px;
+}
+
+.box-content {
+  display: flex;                 /* Use flexbox for content layout */
+  align-items: center;           /* Center align image and text vertically */
+}
+
+.box-image {
+  width: 50px;                  /* Adjust size as needed */
+  height: auto;                 /* Maintain aspect ratio */
+  margin-right: 15px;           /* Space between image and text */
+  align-self: center;           /* Center the logo vertically in the box */
+}
+
+.box:hover {
+  transform: scale(1.05);       /* Zoom effect on hover */
+  background-color: #FFDD57;    /* Change this to any color you prefer */
+}
