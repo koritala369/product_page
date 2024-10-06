@@ -63,31 +63,31 @@ export class WebpageComponent {
       scrollContainer.scrollLeft -= 80; // Scroll left
     });
   }
-  // title = 'box';
-  boxes = [
-    { 
-      title: 'Shipping', 
-      content: 'Fast and reliable shipping.', 
-      image: 'assets/free.jpg', // Update with your image path
-      color: '#FFDDC1' 
-    },
-    { 
-      title: 'Support', 
-      content: '24/7 customer support.', 
-      image: 'assets/service.jpg', // Update with your image path
-      color: '#FFABAB' 
-    },
-    { 
-      title: 'Money Back Guarantee', 
-      content: '30-day money back guarantee.', 
-      image: 'assets/cashback.jpg', // Update with your image path
-      color: '#FFC3A0' 
-    },
-    { 
-      title: 'Secure Payment', 
-      content: 'Your payment information is safe with us.', 
-      image: 'assets/secure.jpg', // Update with your image path
-      color: '#D5AAFF' 
-    }
-  ];
+  
+ boxes = [
+  { 
+    title: 'Shipping', 
+    content: 'Fast and reliable shipping.', 
+    image: 'assets/free.jpg', // Update with your image path
+    color: '#FFDDC1' 
+  },
+  { 
+    title: 'Support', 
+    content: '24/7 customer support.', 
+    image: 'assets/service.jpg', // Update with your image path
+    color: '#FFABAB' 
+  },
+  { 
+    title: 'Money Back Guarantee', 
+    content: '30-day money back guarantee.', 
+    image: 'assets/cashback.jpg', // Update with your image path
+    color: '#FFC3A0' 
+  },
+  { 
+    title: 'Secure Payment', 
+    content: 'Your payment information is safe with us.', 
+    image: 'assets/secure.jpg', // Update with your image path
+    color: '#D5AAFF' 
+  }
+];
 }
